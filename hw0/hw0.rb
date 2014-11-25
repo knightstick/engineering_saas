@@ -1,6 +1,5 @@
 def sum(array)
-	return 0 if array.empty?
-	array.reduce(&:+)
+	array.reduce(0, &:+)
 end
 
 def max_2_sum(array)
